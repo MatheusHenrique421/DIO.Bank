@@ -23,7 +23,7 @@ namespace DIO.Bank
       if (this.Saldo - valorSaque < (this.Credito * -1))
       {
         Console.WriteLine("Saldo Insuficiente!");
-
+         
         return false;
       }
 
